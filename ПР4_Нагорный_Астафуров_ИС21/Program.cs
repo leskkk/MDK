@@ -4,6 +4,7 @@ class Program
 {
     static void Main()
     {
+        // Ввод начальных данных
         Console.Write("Введите начало отрезка a: ");
         double a = Convert.ToDouble(Console.ReadLine());
 
@@ -13,9 +14,11 @@ class Program
         Console.Write("Введите шаг h: ");
         double h = Convert.ToDouble(Console.ReadLine());
 
+        // Вывод заголовка таблицы
         Console.WriteLine(" x        | F(x)");
         Console.WriteLine("--------------------");
 
+        // Вычисление и вывод значений функции
         try
         {
             ComputeFunctionValues(a, b, h);
@@ -40,6 +43,7 @@ class Program
         double sinX = Math.Sin(x);
         double denominator = Math.Pow(sinX, 2) + 1;
 
+        // Проверка на деление на ноль
         if (denominator == 0)
         {
             throw new DivideByZeroException("Деление на ноль в функции F(x).");
@@ -47,4 +51,4 @@ class Program
 
         return Math.Pow(x, 2) / denominator;
     }
-}}
+}
