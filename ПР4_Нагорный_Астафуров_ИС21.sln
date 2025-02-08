@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ПР4_Нагорный_Астафуров_ИС21", "ПР4_Нагорный_Астафуров_ИС21\ПР4_Нагорный_Астафуров_ИС21.csproj", "{F57D40EB-356C-4081-9A2D-BF3F9A3BA756}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ПР4_Нагорный_Астафуров_ИС21", "ПР4_Нагорный_Астафуров_ИС21\ПР4_Нагорный_Астафуров_ИС21.csproj", "{F57D40EB-356C-4081-9A2D-BF3F9A3BA756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ПР5", "ПР5\ПР5.csproj", "{CF665E38-79D1-4C87-B5F6-04EFA2F64FE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F57D40EB-356C-4081-9A2D-BF3F9A3BA756}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F57D40EB-356C-4081-9A2D-BF3F9A3BA756}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F57D40EB-356C-4081-9A2D-BF3F9A3BA756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF665E38-79D1-4C87-B5F6-04EFA2F64FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF665E38-79D1-4C87-B5F6-04EFA2F64FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF665E38-79D1-4C87-B5F6-04EFA2F64FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF665E38-79D1-4C87-B5F6-04EFA2F64FE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
